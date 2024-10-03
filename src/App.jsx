@@ -15,6 +15,11 @@ const App = () => {
       link: 'https://people.rit.edu/rwb4048/'
     },
     {
+      title: 'RIT Service Request',
+      description: 'Report something broken at RIT',
+      link: 'https://help.rit.edu'
+    },
+    {
       title: 'Accessibility Report',
       description: 'Report Broken Accessible Door Buttons, elevators, etc. (Coming Soon)',
       link: '#',
