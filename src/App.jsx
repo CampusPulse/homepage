@@ -19,8 +19,14 @@ const App = () => {
       link: '/contact'
     }
   ];
-
-  return <Menu items={menuItems} />;
+  return (
+    <div className="app-container">
+      <Menu items={menuItems} />
+      <footer className="app-footer">
+        <p>This site is part of the <a href="https://github.com/CampusPulse/">CampusPulse Project</a>, which is Open Source</p>
+      </footer>
+    </div>
+  );
 };
 
 export default App;
