@@ -31,7 +31,12 @@ const App = () => {
       description: 'View Dining menus with fewer clicks (coming soon)',
       link: '#',
       enabled: false
-    }
+    },
+    {
+      title: 'View Dining Hours',
+      description: 'View Dining hours',
+      link: 'https://tigercenter.rit.edu/tigerCenterApp/api/hours-and-locations'
+    },
   ];
   return (
     <div className="app-container">
