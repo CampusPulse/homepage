@@ -4,19 +4,32 @@ import Menu from './Menu';
 const App = () => {
   const menuItems = [
     {
-      title: 'Home',
-      description: 'Go to the homepage',
-      link: '/'
+      title: 'Events',
+      description: 'What events are happening on campus',
+      link: 'https://campuspulse.meepme.app'
     },
     {
-      title: 'About',
-      description: 'Learn more about us',
-      link: '/about'
+      title: 'RIT Slope Map',
+      description: 'Find a route to class that has the flattest slopes to navigate',
+      link: 'https://people.rit.edu/rwb4048/'
     },
     {
-      title: 'Contact',
-      description: 'Get in touch with us',
-      link: '/contact'
+      title: 'Accessibility Report',
+      description: 'Report Broken Accessible Door Buttons, elevators, etc. (Coming Soon)',
+      link: '#',
+      enabled: false
+    },
+    {
+      title: 'Accessibility Statistics',
+      description: 'See data about reports of broken things on campus. (Coming Soon)',
+      link: '#',
+      enabled: false
+    },
+    {
+      title: 'Easy Dining Menus',
+      description: 'View Dining menus with fewer clicks (coming soon)',
+      link: '#',
+      enabled: false
     }
   ];
   return (
