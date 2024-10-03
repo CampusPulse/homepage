@@ -8,7 +8,7 @@ const Menu = ({ items }) => {
         <a
           key={index}
           href={item.link}
-		  className={`menu-button ${item.enabled == false?  ' disabled' : ''}`}
+		  className={`menu-button ${item.enabled === false ?  ' disabled' : ''}`}
           target="_blank"
           rel="noopener noreferrer"
         >
