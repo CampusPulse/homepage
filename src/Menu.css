@@ -43,3 +43,14 @@ body {
 	margin: 10px 0 0;
 	font-size: 16px;
 }
+
+.menu-button.disabled {
+	background-color: #8eb590;
+	transition: none;
+	cursor:default;
+}
+
+.menu-button.disabled:hover {
+	transform: scale(1.0);
+	background-color: #8eb590;
+}
