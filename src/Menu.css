@@ -10,10 +10,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	/* Center items vertically */
-	height: 100vh;
 	/* Full viewport height */
 	gap: 20px;
 	padding: 20px;
+	flex-grow: 1;
 }
 
 .menu-button {
