@@ -1,43 +1,53 @@
 import React from 'react';
 import Menu from './Menu';
 import './App.css';
+import { faCalendar, faClock } from '@fortawesome/free-regular-svg-icons';
+import { faFlag, faTriangleExclamation, faUtensils, faWheelchair } from '@fortawesome/free-solid-svg-icons';
+import { faChartSimple } from '@fortawesome/free-solid-svg-icons/faChartSimple';
 
 const App = () => {
   const menuItems = [
     {
+      icon: faCalendar,
       title: 'Events',
       description: 'What events are happening on campus',
       link: 'https://campuspulse.meepme.app'
     },
     {
+      icon: faWheelchair,
       title: 'RIT Slope Map',
       description: 'Find a route to class that has the flattest slopes to navigate',
       link: 'https://people.rit.edu/rwb4048/'
     },
     {
+      icon: faTriangleExclamation,
       title: 'RIT Service Request',
       description: 'Report something broken at RIT',
       link: 'https://help.rit.edu'
     },
     {
+      icon: faFlag,
       title: 'Accessibility Report',
       description: 'Report Broken Accessible Door Buttons, elevators, etc. (Coming Soon)',
       link: '#',
       enabled: false
     },
     {
+      icon: faChartSimple,
       title: 'Accessibility Statistics',
       description: 'See data about reports of broken things on campus. (Coming Soon)',
       link: '#',
       enabled: false
     },
     {
+      icon: faUtensils,
       title: 'Easy Dining Menus',
       description: 'View Dining menus with fewer clicks (coming soon)',
       link: '#',
       enabled: false
     },
     {
+      icon: faClock,
       title: 'View Dining Hours',
       description: 'View Dining hours',
       link: 'https://tigercenter.rit.edu/tigerCenterApp/api/hours-and-locations'

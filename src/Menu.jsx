@@ -1,5 +1,6 @@
 import React from 'react';
 import './Menu.css'; // Importing CSS for styling
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Menu = ({ items }) => {
   return (
@@ -13,6 +14,7 @@ const Menu = ({ items }) => {
           rel="noopener noreferrer"
         >
           <div className="menu-content">
+            <FontAwesomeIcon icon={item.icon} className='fa-2xl' />
             <h2>{item.title}</h2>
             <p>{item.description}</p>
           </div>
