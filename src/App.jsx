@@ -11,7 +11,7 @@ const App = () => {
       icon: faCalendar,
       title: 'Events',
       description: 'What events are happening on campus',
-      link: 'https://campuspulse.meepme.app'
+      link: 'https://events.campuspulse.app/'
     },
     {
       icon: faWheelchair,
