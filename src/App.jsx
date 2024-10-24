@@ -19,12 +19,7 @@ const App = () => {
       description: 'Find a route to class that has the flattest slopes to navigate',
       link: 'https://people.rit.edu/rwb4048/'
     },
-    {
-      icon: faTriangleExclamation,
-      title: 'RIT Service Request',
-      description: 'Report something broken at RIT',
-      link: 'https://help.rit.edu'
-    },
+    
     {
       icon: faFlag,
       title: 'Accessibility Report',
@@ -45,6 +40,14 @@ const App = () => {
       description: 'View Dining menus with fewer clicks (coming soon)',
       link: '#',
       enabled: false
+    }
+  ];
+  const links = [
+    {
+      icon: faTriangleExclamation,
+      title: 'RIT Service Request',
+      description: 'Report something broken at RIT',
+      link: 'https://help.rit.edu'
     },
     {
       icon: faClock,
@@ -56,6 +59,8 @@ const App = () => {
   return (
     <div className="app-container">
       <Menu items={menuItems} />
+      <h2 style={{textAlign:'center'}}>Other Helpful Links</h2>
+      <Menu items={links} />
       <footer className="app-footer">
         <p>This site is part of the <a href="https://github.com/CampusPulse/">CampusPulse Project</a>, which is Open Source</p>
       </footer>
