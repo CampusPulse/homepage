@@ -6,6 +6,23 @@ import { faFlag, faTriangleExclamation, faUtensils, faWheelchair } from '@fortaw
 import { faChartSimple } from '@fortawesome/free-solid-svg-icons/faChartSimple';
 
 const App = () => {
+
+  const brokenReports = [
+    {
+      icon: faTriangleExclamation,
+      title: 'RIT Service Request',
+      description: 'Report something broken at RIT',
+      link: 'https://help.rit.edu'
+    },
+    {
+      icon: faFlag,
+      title: 'Accessibility Report',
+      description: 'Report Broken Accessible Door Buttons, elevators, etc. (Coming Soon)',
+      link: '#',
+      enabled: false
+    },
+  ]
+
   const menuItems = [
     {
       icon: faCalendar,
@@ -18,14 +35,6 @@ const App = () => {
       title: 'RIT Slope Map',
       description: 'Find a route to class that has the flattest slopes to navigate',
       link: 'https://people.rit.edu/rwb4048/'
-    },
-    
-    {
-      icon: faFlag,
-      title: 'Accessibility Report',
-      description: 'Report Broken Accessible Door Buttons, elevators, etc. (Coming Soon)',
-      link: '#',
-      enabled: false
     },
     {
       icon: faChartSimple,
@@ -44,12 +53,6 @@ const App = () => {
   ];
   const links = [
     {
-      icon: faTriangleExclamation,
-      title: 'RIT Service Request',
-      description: 'Report something broken at RIT',
-      link: 'https://help.rit.edu'
-    },
-    {
       icon: faClock,
       title: 'View Dining Hours',
       description: 'View Dining hours',
@@ -58,6 +61,9 @@ const App = () => {
   ];
   return (
     <div className="app-container">
+      <h2 style={{textAlign:'center'}}>Report Jank</h2>
+      <Menu items={brokenReports} />
+      <h2 style={{textAlign:'center'}}>Cool Utilities</h2>
       <Menu items={menuItems} />
       <h2 style={{textAlign:'center'}}>Other Helpful Links</h2>
       <Menu items={links} />
