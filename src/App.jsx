@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './Menu';
 import './App.css';
 import { faCalendar, faClock } from '@fortawesome/free-regular-svg-icons';
-import { faFlag, faTriangleExclamation, faUtensils, faWheelchair, faBus } from '@fortawesome/free-solid-svg-icons';
+import { faFlag, faTriangleExclamation, faWheelchair, faBus } from '@fortawesome/free-solid-svg-icons';
 import { faChartSimple } from '@fortawesome/free-solid-svg-icons/faChartSimple';
 
 const App = () => {
