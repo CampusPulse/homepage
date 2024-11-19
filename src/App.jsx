@@ -2,12 +2,18 @@ import React from 'react';
 import Menu from './Menu';
 import './App.css';
 import { faCalendar, faClock } from '@fortawesome/free-regular-svg-icons';
-import { faFlag, faTriangleExclamation, faUtensils, faWheelchair } from '@fortawesome/free-solid-svg-icons';
+import { faFlag, faTriangleExclamation, faUtensils, faWheelchair, faBus } from '@fortawesome/free-solid-svg-icons';
 import { faChartSimple } from '@fortawesome/free-solid-svg-icons/faChartSimple';
 
 const App = () => {
 
   const brokenReports = [
+    {
+      icon: faBus,
+      title: 'Report Bus Delays',
+      description: 'Report Bus Delays to the RIT Urbanism Club',
+      link: 'https://ggl.link/mybussucks-pulse'
+    },
     {
       icon: faTriangleExclamation,
       title: 'RIT Service Request',
