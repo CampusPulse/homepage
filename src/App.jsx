@@ -16,8 +16,8 @@ const App = () => {
     },
     {
       icon: faFlag,
-      title: 'Accessibility Report',
-      description: 'Report Broken Accessible Door Buttons, elevators, etc. (Coming Soon)',
+      title: 'Accessibility Issue',
+      description: 'Report broken accessibility hardware. (Coming Soon)',
       link: '#',
       enabled: false
     },
