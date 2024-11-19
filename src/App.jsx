@@ -42,13 +42,6 @@ const App = () => {
       description: 'See data about reports of broken things on campus. (Coming Soon)',
       link: '#',
       enabled: false
-    },
-    {
-      icon: faUtensils,
-      title: 'Easy Dining Menus',
-      description: 'View Dining menus with fewer clicks (coming soon)',
-      link: '#',
-      enabled: false
     }
   ];
   const links = [
