@@ -54,6 +54,13 @@ const App = () => {
       description: 'See data about reports of broken things on campus. (Coming Soon)',
       link: '#',
       enabled: false
+    },
+    {
+      icon: faChartSimple,
+      title: 'Bus Statistics',
+      description: 'See data about the busses on campus. (Coming Soon)',
+      link: '#',
+      enabled: false
     }
   ];
   const links = [
