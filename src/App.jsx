@@ -67,7 +67,7 @@ const App = () => {
       <h2 style={{textAlign:'center'}}>Other Helpful Links</h2>
       <Menu items={links} />
       <footer className="app-footer">
-        <p>This site is part of the <a href="https://github.com/CampusPulse/">CampusPulse Project</a>, which is Open Source</p>
+        <p>This site is part of the Open Source <a href="https://github.com/CampusPulse/">CampusPulse Project</a>, a <a href="https://fossrit.github.io/">FOSSRIT</a> initiative</p>
       </footer>
     </div>
   );
