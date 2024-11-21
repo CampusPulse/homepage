@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './Menu';
 import './App.css';
 import { faCalendar, faClock } from '@fortawesome/free-regular-svg-icons';
-import { faFlag, faTriangleExclamation, faWheelchair, faBus } from '@fortawesome/free-solid-svg-icons';
+import { faFlag, faTriangleExclamation, faWheelchair, faBus, faTextSlash } from '@fortawesome/free-solid-svg-icons';
 import { faChartSimple } from '@fortawesome/free-solid-svg-icons/faChartSimple';
 
 const App = () => {
@@ -19,6 +19,12 @@ const App = () => {
       title: 'RIT Service Request',
       description: 'Report something broken at RIT',
       link: 'https://help.rit.edu'
+    },
+    {
+      icon: faTextSlash,
+      title: 'Website Feedback',
+      description: 'Found a typo or broken website? Report it here',
+      link: 'https://www.rit.edu/website-feedback'
     },
     {
       icon: faFlag,
