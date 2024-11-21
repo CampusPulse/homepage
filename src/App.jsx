@@ -87,7 +87,7 @@ const App = () => {
       <h2 style={{textAlign:'center'}}>Other Helpful Links</h2>
       <Menu items={links} />
       <footer className="app-footer">
-        <p>This site is part of the Open Source <a href="https://github.com/CampusPulse/">CampusPulse Project</a>, a <a href="https://fossrit.github.io/">FOSSRIT</a> initiative</p>
+        <p>This site is part of the Open Source <a href="https://github.com/CampusPulse/">CampusPulse Project</a>. <a href="https://docs.google.com/document/d/1tLtA1JWAWCyU-I9oMHJfNNU0mO2UYU2SZ_ibUw2YlLs/edit?tab=t.0">Learn more about Open Source on RIT's campus</a> or join the <a href="https://fossrit.github.io/">FOSSRIT Community</a></p>
       </footer>
     </div>
   );
