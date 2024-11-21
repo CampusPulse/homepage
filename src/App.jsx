@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './Menu';
 import './App.css';
 import { faCalendar, faClock } from '@fortawesome/free-regular-svg-icons';
-import { faFlag, faTriangleExclamation, faWheelchair, faBus, faTextSlash } from '@fortawesome/free-solid-svg-icons';
+import { faFlag, faTriangleExclamation, faWheelchair, faBus, faTextSlash, faGavel } from '@fortawesome/free-solid-svg-icons';
 import { faChartSimple } from '@fortawesome/free-solid-svg-icons/faChartSimple';
 
 const App = () => {
@@ -69,6 +69,13 @@ const App = () => {
       title: 'View Dining Hours',
       description: 'View Dining hours',
       link: 'https://tigercenter.rit.edu/tigerCenterApp/api/hours-and-locations'
+    },
+    {
+      icon: faGavel,
+      title: 'Civic Action Guide',
+      description: 'A guide for how to get things done at RIT (Coming soon)',
+      link: '#',
+      enabled: false
     },
   ];
   return (
