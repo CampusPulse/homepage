@@ -10,8 +10,8 @@ const App = () => {
   const brokenReports = [
     {
       icon: faBus,
-      title: 'Report Bus Delays',
-      description: 'Report Bus Delays to the RIT Urbanism Club',
+      title: 'Report Bus Issues',
+      description: 'Report Bus experiences to the RIT Urbanism Club',
       link: 'https://ggl.link/mybussucks-pulse'
     },
     {
