@@ -12,7 +12,7 @@ const Menu = ({ items }) => {
         <a
           key={index}
           href={item.link}
-		      className={`menu-button ${item.enabled === false ?  ' disabled' : ''} ${highlightedId === item.id ? 'highlighted' : ''}`}
+		      className={`menu-button ${item.disabled !== undefined ?  ' disabled' : ''} ${highlightedId === item.id ? 'highlighted' : ''}`}
           target="_blank"
           rel="noopener noreferrer"
         >

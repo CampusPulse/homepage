@@ -31,7 +31,7 @@ const App = () => {
       title: 'Accessibility Issue',
       description: 'Report broken accessibility hardware. (Coming Soon)',
       link: '#',
-      enabled: false
+      disabled: "(Coming Soon)"
     },
   ]
 
@@ -60,21 +60,21 @@ const App = () => {
       title: 'Accessibility Statistics',
       description: 'See data about reports of broken things on campus. (Coming Soon)',
       link: '#',
-      enabled: false
+      disabled: "(Coming Soon)"
     },
     {
       icon: faChartSimple,
       title: 'Bus Statistics',
       description: 'See data about the busses on campus. (Coming Soon)',
       link: '#',
-      enabled: false
+      disabled: "(Coming Soon)"
     },
     {
       icon: faUserGroup,
       title: 'Find a Friend',
       description: 'Feeling lonely? Meet someone new! (Coming Eventually)',
       link: '#',
-      enabled: false
+      disabled: "(Coming Eventually)"
     }
   ];
   const links = [
@@ -87,9 +87,9 @@ const App = () => {
     {
       icon: faGavel,
       title: 'Civic Action Guide',
-      description: 'A guide for how to get things done at RIT (Coming soon)',
+      description: 'Getting things done at RIT',
       link: '#',
-      enabled: false
+      disabled: "(Coming soon)"
     },
   ];
   return (
@@ -98,8 +98,8 @@ const App = () => {
       <Menu items={brokenReports} />
       <h2 style={{textAlign:'center'}}>Cool Utilities</h2>
       <Menu items={menuItems} />
-      <h2 style={{textAlign:'center'}}>Other Helpful Links</h2>
-      <Menu items={links} />
+      <h2 style={{textAlign:'center'}}>Other Links</h2>
+      <Menu items={links} style="small" />
       <footer className="app-footer">
         <p>This site is part of the Open Source <a href="https://github.com/CampusPulse/">CampusPulse Project</a>. <a href="https://docs.google.com/document/d/1tLtA1JWAWCyU-I9oMHJfNNU0mO2UYU2SZ_ibUw2YlLs/edit?tab=t.0">Learn more about Open Source on RIT's campus</a> or join the <a href="https://fossrit.github.io/">FOSSRIT Community</a></p>
       </footer>
