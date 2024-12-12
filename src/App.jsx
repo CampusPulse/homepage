@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './Menu';
 import './App.css';
 import { faCalendar, faClock } from '@fortawesome/free-regular-svg-icons';
-import { faFlag, faTriangleExclamation, faWheelchair, faBus, faTextSlash, faGavel, faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import { faFlag, faTriangleExclamation, faWheelchair, faCheckToSlot, faBus, faTextSlash, faGavel, faUserGroup } from '@fortawesome/free-solid-svg-icons';
 import { faChartSimple } from '@fortawesome/free-solid-svg-icons/faChartSimple';
 
 const App = () => {
@@ -47,6 +47,12 @@ const App = () => {
       title: 'RIT Slope Map',
       description: 'Find a route to class that has the flattest slopes to navigate',
       link: 'https://people.rit.edu/rwb4048/'
+    },
+    {
+      icon: faCheckToSlot,
+      title: 'Submit Accessibility Buttons',
+      description: 'Let us know what buttons to monitor first!',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSduHXhny349UYX06VdSjOqLwzaqz0XZKofUE2YZRmN37xTsAQ/viewform?usp=header'
     },
     {
       icon: faChartSimple,
