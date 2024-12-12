@@ -50,7 +50,7 @@ const App = () => {
     },
     {
       icon: faCheckToSlot,
-      title: 'Submit Accessibility Buttons',
+      title: 'Share Access Button',
       description: 'Let us know what buttons to monitor first!',
       link: 'https://docs.google.com/forms/d/e/1FAIpQLSduHXhny349UYX06VdSjOqLwzaqz0XZKofUE2YZRmN37xTsAQ/viewform?usp=header'
     },
