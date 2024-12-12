@@ -14,6 +14,7 @@ const Menu = ({ items }) => {
           href={item.link}
 		      className={`menu-button ${item.disabled !== undefined ?  ' disabled' : ''} ${highlightedId === item.id ? 'highlighted' : ''}`}
           target="_blank"
+          title={item.disabled !== undefined ? item.disabled : undefined}
           rel="noopener noreferrer"
         >
           <div className="menu-content">
