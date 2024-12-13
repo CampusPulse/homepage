@@ -52,7 +52,7 @@ const App = () => {
       icon: faCheckToSlot,
       title: 'Share Access Button',
       id: 'button',
-      description: 'Let us know what buttons to monitor first!',
+      description: 'Let us know what accessible buttons to map first!',
       link: 'https://docs.google.com/forms/d/e/1FAIpQLSduHXhny349UYX06VdSjOqLwzaqz0XZKofUE2YZRmN37xTsAQ/viewform?usp=header'
     },
     {
