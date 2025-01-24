@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from './Menu';
 import './App.css';
 import { faCalendar, faClock } from '@fortawesome/free-regular-svg-icons';
-import { faFlag, faTriangleExclamation, faWheelchair, faCheckToSlot, faHouse, faBus, faTextSlash, faGavel, faUserGroup } from '@fortawesome/free-solid-svg-icons';
+import { faFlag, faTriangleExclamation, faWheelchair, faCheckToSlot, faHouse, faBus, faTextSlash, faGavel, faUserGroup, faLocationArrow } from '@fortawesome/free-solid-svg-icons';
 import { faChartSimple } from '@fortawesome/free-solid-svg-icons/faChartSimple';
 
 const App = () => {
@@ -41,6 +41,13 @@ const App = () => {
       title: 'Events',
       description: 'What events are happening on campus',
       link: 'https://events.campuspulse.app/'
+    },
+    {
+      icon: faLocationArrow,
+      title: 'Bus Tracker',
+      description: 'When is the bus coming next?',
+      link: '#',
+      disabled: "(Coming VERY Soon)"
     },
     {
       icon: faWheelchair,
