@@ -1,6 +1,6 @@
 <div class="menu-container">
 	{{ range .items }}
-	<a href="{{ .link }}" id="{.id}" class="menu-button{{ if .disabled }} disabled{{ end }}" {{ if .disabled }} title="{{ .disabled }}" {{ end }} target="_blank" rel="noopener noreferrer">
+	<a href="{{ .link }}" id="{{.id}}" class="menu-button{{ if .disabled }} disabled{{ end }}" {{ if .disabled }} title="{{ .disabled }}" {{ end }} target="_blank" rel="noopener noreferrer">
 		<div class="menu-content">
 			{{ $ctx := dict
 			"vendor" "fas"
