@@ -1,0 +1,19 @@
+{{ define "page" }}
+<div class="app-container">
+	<h2 style="text-align:center;">Report Jank</h2>
+		{{ partial "menu.html" (dict "items" .Site.Data.brokenReports) }}
+
+
+
+	<h2 style="text-align:center;">Cool Utilities</h2>
+	{{ partial "menu.html" (dict "items" .Site.Data.menuItems) }}
+
+
+
+	<h2 style="text-align:center;">Other Links</h2>
+		{{ partial "menu.html" (dict "items" .Site.Data.links) }}
+
+
+	{{ .Content }}
+</div>
+{{ end }}
