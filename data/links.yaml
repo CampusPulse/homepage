@@ -1,0 +1,13 @@
+- icon: "house"
+  title: 'Housing Cost Sheet'
+  description: 'Compare Housing Costs'
+  link: 'https://docs.google.com/spreadsheets/d/1rMiXzpoBFQjZwccW-A5hu5AWjXx9EZ7jZY0rMU8y4-s/edit'
+- icon: "clock"
+  title: 'View Dining Hours'
+  description: 'View Dining hours'
+  link: 'https://tigercenter.rit.edu/tigerCenterApp/api/hours-and-locations'
+- icon: "gavel"
+  title: 'Civic Action Guide'
+  description: 'Getting things done at RIT'
+  link: '#'
+  disabled: "(Coming soon)"

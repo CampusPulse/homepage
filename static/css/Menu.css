@@ -59,7 +59,7 @@ body {
 .menu-button.disabled {
 	background-color: #8eb590;
 	transition: none;
-	cursor:default;
+	cursor: default;
 }
 
 .menu-button.disabled:hover {
