@@ -19,3 +19,53 @@ code {
   min-height: 100vh;
   /* Ensures the app container takes full viewport height */
 }
+
+.cornerNavButton {
+  font-size: 32px;
+  /*Default size */
+  position: absolute;
+
+  padding-right: 0.15em;
+  padding-left: 0.15em;
+
+  color: #4CAF50
+}
+/* borrowed the menu styles here */
+.cornerNavButton:hover {
+  transform: scale(1.05);
+  color: #45a049;
+}
+
+.cornerNavTop {
+  top: 0;
+}
+
+.cornerNavBottom {
+  bottom: 0;
+}
+
+.cornerNavLeft {
+  left: 0;
+  border-bottom-left-radius: 0;
+}
+
+.cornerNavRight {
+  right: 0;
+  border-bottom-right-radius: 0;
+}
+
+.cornerNavTop.cornerNavLeft {
+  border-bottom-right-radius: 10px;
+}
+
+.cornerNavTop.cornerNavRight {
+  border-bottom-left-radius: 10px;
+}
+
+.cornerNavBottom.cornerNavLeft {
+  border-top-right-radius: 10px;
+}
+
+.cornerNavBottom.cornerNavRight {
+  border-top-left-radius: 10px;
+}

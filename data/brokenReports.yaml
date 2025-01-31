@@ -1,7 +1,7 @@
 - icon: "bus"
   title: 'Report Bus Issues'
-  description: 'Report Bus experiences to the RIT Urbanism Club'
-  link: 'https://ggl.link/mybussucks-pulse'
+  description: 'Report Bus experiences to RIT'
+  link: '/bus'
 - icon: "triangle-exclamation"
   title: 'RIT Service Request'
   description: 'Report something broken at RIT'

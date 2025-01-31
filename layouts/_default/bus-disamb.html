@@ -1,0 +1,21 @@
+
+{{ define "page" }}
+<div class="app-container">
+
+	{{ $ctx := dict
+	"vendor" "fas"
+	"name" "house"
+	"size" "2em"
+	}}
+	<h2 style="text-align:center;">What is the nature of your feedback?</h2>
+	<a href="/" class="cornerNavButton cornerNavTop cornerNavLeft smallIcon">{{ partial "icons/icon" $ctx }}</a>
+
+	
+	
+	
+
+	{{ partial "menu.html" (dict "items" .Site.Data.busdisamb) }}
+
+</div>
+{{ end }}
+
