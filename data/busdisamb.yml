@@ -1,9 +1,7 @@
 - icon: "car-burst"
   title: 'Report a Problem'
   description: 'Bus is >5-10min late, issues needing immediate attention'
-  # link: 'https://report.campuspulse.app/bus.html'
-  link: "#"
-  disabled: "(Coming soon)"
+  link: "https://report.campuspulse.app/bus.html"
 
 - icon: "comments"
   title: 'Bus Feedback'
