@@ -2,8 +2,10 @@
   title: 'Report a Problem'
   description: 'Bus is >5-10min late, issues needing immediate attention'
   link: "https://report.campuspulse.app/bus.html"
+  id: busreport
 
 - icon: "comments"
   title: 'Bus Feedback'
   description: 'For non-time-sensitive feedback (suggestions,   thanking drivers, etc)'
   link: 'https://ggl.link/mybussucks-pulse'
+  id: busfeedback
