@@ -1,6 +1,6 @@
 baseURL = 'https://campuspulse.app/'
 languageCode = 'en-us'
-title = 'CampusPulse - Your hub for quick campus resources'
+title = 'CampusPulse - The student-built mobile resources hub for RIT'
 
 [module]
   [[module.imports]]
