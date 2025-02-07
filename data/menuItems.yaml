@@ -16,6 +16,11 @@
   id: 'button'
   description: 'Let us know what accessible buttons to map first!'
   link: 'https://docs.google.com/forms/d/e/1FAIpQLSduHXhny349UYX06VdSjOqLwzaqz0XZKofUE2YZRmN37xTsAQ/viewform?usp=header'
+- icon: "calendar-week"
+  title: 'Schedule Maker'
+  id: 'schedulemaker'
+  description: 'Pick your ideal schedule based on the classes you need to take'
+  link: 'https://schedule.csh.rit.edu'
 # - icon: "chart-simple"
 #   title: 'Accessibility Statistics'
 #   description: 'See data about reports of broken things on campus. (Coming Soon)'
