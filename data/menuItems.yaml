@@ -16,18 +16,18 @@
   id: 'button'
   description: 'Let us know what accessible buttons to map first!'
   link: 'https://docs.google.com/forms/d/e/1FAIpQLSduHXhny349UYX06VdSjOqLwzaqz0XZKofUE2YZRmN37xTsAQ/viewform?usp=header'
-- icon: "chart-simple"
-  title: 'Accessibility Statistics'
-  description: 'See data about reports of broken things on campus. (Coming Soon)'
-  link: '#'
-  disabled: "(Coming Soon)"
-- icon: "chart-simple"
-  title: 'Bus Statistics'
-  description: 'See data about the busses on campus. (Coming Soon)'
-  link: '#'
-  disabled: "(Coming Soon)"
-- icon: "user-group"
-  title: 'Find a Friend'
-  description: 'Feeling lonely? Meet someone new! (Coming Eventually)'
-  link: '#'
-  disabled: "(Coming Eventually)"
+# - icon: "chart-simple"
+#   title: 'Accessibility Statistics'
+#   description: 'See data about reports of broken things on campus. (Coming Soon)'
+#   link: '#'
+#   disabled: "(Coming Soon)"
+# - icon: "chart-simple"
+#   title: 'Bus Statistics'
+#   description: 'See data about the busses on campus. (Coming Soon)'
+#   link: '#'
+#   disabled: "(Coming Soon)"
+# - icon: "user-group"
+#   title: 'Find a Friend'
+#   description: 'Feeling lonely? Meet someone new! (Coming Eventually)'
+#   link: '#'
+#   disabled: "(Coming Eventually)"
