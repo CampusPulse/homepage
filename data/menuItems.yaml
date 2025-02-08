@@ -7,6 +7,10 @@
   description: 'When is the bus coming next?'
   link: '#'
   disabled: "(Coming VERY Soon)"
+- icon: bell
+  title: 'Shuttle Change Alerts'
+  description: 'Get a notification when the shuttle routes change'
+  link: 'https://discord.gg/QW6rDEs9Ck'
 # - icon: "wheelchair"
 #   title: 'RIT Slope Map'
 #   description: 'Find a route to class that has the flattest slopes to navigate'
