@@ -4,7 +4,7 @@
   link: 'https://events.campuspulse.app/'
 - icon: "location-arrow"
   title: 'Bus Tracker'
-  description: 'When is the bus coming next?'
+  description: 'When is the bus coming next? (Coming VERY Soon)'
   link: '#'
   disabled: "(Coming VERY Soon)"
 - icon: bell
