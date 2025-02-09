@@ -9,6 +9,11 @@ body {
   flex-direction: column;
 }
 
+main {
+  flex: 1 0 auto;
+  margin: 20px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -18,8 +23,6 @@ code {
 .app-container {
   flex: 1 0 auto;
   margin: 20px;
-  min-height: 100vh;
-  /* Ensures the app container takes full viewport height */
 }
 
 .cornerNavButton {
