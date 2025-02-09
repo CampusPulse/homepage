@@ -12,6 +12,10 @@
   description: 'Get a notification when the shuttle routes change'
   link: 'https://discord.gg/QW6rDEs9Ck'
   nofollow: true
+- icon: utensils
+  title: 'Online Order'
+  description: 'Order food to go from RIT Dining'
+  link: 'https://ondemand.rit.edu/'
 # - icon: "wheelchair"
 #   title: 'RIT Slope Map'
 #   description: 'Find a route to class that has the flattest slopes to navigate'
