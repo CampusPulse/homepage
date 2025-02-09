@@ -12,8 +12,6 @@ body {
 	/* Center items vertically */
 	/* Full viewport height */
 	gap: 20px;
-	padding: 20px;
-	flex-grow: 1;
 }
 
 .menu-button {
