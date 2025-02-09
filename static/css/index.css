@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
 }
 
 code {
@@ -14,8 +16,8 @@ code {
 
 
 .app-container {
-  display: flex;
-  flex-direction: column;
+  flex: 1 0 auto;
+  margin: 20px;
   min-height: 100vh;
   /* Ensures the app container takes full viewport height */
 }
@@ -34,6 +36,10 @@ code {
 .cornerNavButton:hover {
   transform: scale(1.05);
   color: #45a049;
+}
+
+footer.app-footer {
+  margin: 20px;
 }
 
 .cornerNavTop {
