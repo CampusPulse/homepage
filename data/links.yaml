@@ -64,6 +64,10 @@
       title: 'Online Order'
       description: 'Order food to go from RIT Dining'
       link: 'https://ondemand.rit.edu/'
+    - icon: "check-to-slot"
+      title: 'PawPrints Petitions'
+      description: 'Make your voice heard to help make campus better'
+      link: 'https://pawprints.rit.edu/'
     - icon: "calendar-week"
       title: 'Schedule Maker'
       id: 'schedulemaker'
@@ -74,10 +78,6 @@
       id: 'tigercenter'
       description: 'The best course search tool on campus'
       link: 'https://tigercenter.rit.edu'
-    - icon: "check-to-slot"
-      title: 'PawPrints Petitions'
-      description: 'Make your voice heard to help make campus better'
-      link: 'https://pawprints.rit.edu/'
 - section_title: Other Links
   links:
     - icon: "house"
