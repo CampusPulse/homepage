@@ -1,22 +1,11 @@
 {{ define "page" }}
 <div class="app-container">
-	<h2 style="text-align:center;">Report Jank</h2>
-		{{ partial "menu.html" (dict "items" .Site.Data.links.broken) }}
 
-
-
-	<h2 style="text-align:center;">Cool Utilities</h2>
-	{{ partial "menu.html" (dict "items" .Site.Data.links.utilities) }}
-
-	<h2 style="text-align:center;">Campus Services</h2>
-	{{ partial "menu.html" (dict "items" .Site.Data.links.services) }}
-
-
-
-	<h2 style="text-align:center;">Other Links</h2>
-		{{ partial "menu.html" (dict "items" .Site.Data.links.links) }}
-
-
+	{{ range .Site.Data.links }}
+		<h2 style="text-align:center;">{{ .title }}</h2>
+		{{ partial "menu.html" (dict "items" .links) }}
+	{{ end }}
+	
 	{{ .Content }}
 </div>
 {{ end }}

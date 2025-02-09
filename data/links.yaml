@@ -1,91 +1,99 @@
 broken:
-  - icon: "bus"
-    title: 'Report Bus Issues'
-    description: 'Report Bus experiences to RIT'
-    link: '/bus'
-    id: 'bus'
-  - icon: "triangle-exclamation"
-    title: 'RIT Service Request'
-    description: 'Report something broken at RIT'
-    link: 'https://help.rit.edu'
-  - icon: "text-slash"
-    title: 'Website Feedback'
-    description: 'Found a typo or broken website? Report it here'
-    link: 'https://www.rit.edu/website-feedback'
-  - icon: "flag"
-    title: 'Accessibility Issue'
-    description: 'Report broken accessibility hardware. (Coming Soon)'
-    link: '#'
-    disabled: "(Coming Soon)"
+  title: Report Jank
+  links:
+    - icon: "bus"
+      title: 'Report Bus Issues'
+      description: 'Report Bus experiences to RIT'
+      link: '/bus'
+      id: 'bus'
+    - icon: "triangle-exclamation"
+      title: 'RIT Service Request'
+      description: 'Report something broken at RIT'
+      link: 'https://help.rit.edu'
+    - icon: "text-slash"
+      title: 'Website Feedback'
+      description: 'Found a typo or broken website? Report it here'
+      link: 'https://www.rit.edu/website-feedback'
+    - icon: "flag"
+      title: 'Accessibility Issue'
+      description: 'Report broken accessibility hardware. (Coming Soon)'
+      link: '#'
+      disabled: "(Coming Soon)"
 utilities:
-  - icon: "calendar"
-    title: 'Events'
-    description: 'What events are happening on campus'
-    link: 'https://events.campuspulse.app/'
-  - icon: "location-arrow"
-    title: 'Bus Tracker'
-    description: 'When is the bus coming next? (Coming VERY Soon)'
-    link: '#'
-    disabled: "(Coming VERY Soon)"
-  - icon: bell
-    title: 'Shuttle Change Alerts'
-    description: 'Get a notification when the shuttle routes change'
-    link: 'https://discord.gg/QW6rDEs9Ck'
-    nofollow: true
-  # - icon: "wheelchair"
-  #   title: 'RIT Slope Map'
-  #   description: 'Find a route to class that has the flattest slopes to navigate'
-  #   link: 'https://people.rit.edu/rwb4048/'
-  # - icon: "check-to-slot"
-  #   title: 'Share Access Button'
-  #   id: 'button'
-  #   description: 'Let us know what accessible buttons to map first!'
-  #   link: 'https://docs.google.com/forms/d/e/1FAIpQLSduHXhny349UYX06VdSjOqLwzaqz0XZKofUE2YZRmN37xTsAQ/viewform?usp=header'
-  # - icon: "chart-simple"
-  #   title: 'Accessibility Statistics'
-  #   description: 'See data about reports of broken things on campus. (Coming Soon)'
-  #   link: '#'
-  #   disabled: "(Coming Soon)"
-  # - icon: "chart-simple"
-  #   title: 'Bus Statistics'
-  #   description: 'See data about the busses on campus. (Coming Soon)'
-  #   link: '#'
-  #   disabled: "(Coming Soon)"
-  # - icon: "user-group"
-  #   title: 'Find a Friend'
-  #   description: 'Feeling lonely? Meet someone new! (Coming Eventually)'
-  #   link: '#'
-  #   disabled: "(Coming Eventually)"
+  title: Cool Utilities
+  links:
+    - icon: "calendar"
+      title: 'Events'
+      description: 'What events are happening on campus'
+      link: 'https://events.campuspulse.app/'
+    - icon: "location-arrow"
+      title: 'Bus Tracker'
+      description: 'When is the bus coming next? (Coming VERY Soon)'
+      link: '#'
+      disabled: "(Coming VERY Soon)"
+    - icon: bell
+      title: 'Shuttle Change Alerts'
+      description: 'Get a notification when the shuttle routes change'
+      link: 'https://discord.gg/QW6rDEs9Ck'
+      nofollow: true
+    # - icon: "wheelchair"
+    #   title: 'RIT Slope Map'
+    #   description: 'Find a route to class that has the flattest slopes to navigate'
+    #   link: 'https://people.rit.edu/rwb4048/'
+    # - icon: "check-to-slot"
+    #   title: 'Share Access Button'
+    #   id: 'button'
+    #   description: 'Let us know what accessible buttons to map first!'
+    #   link: 'https://docs.google.com/forms/d/e/1FAIpQLSduHXhny349UYX06VdSjOqLwzaqz0XZKofUE2YZRmN37xTsAQ/viewform?usp=header'
+    # - icon: "chart-simple"
+    #   title: 'Accessibility Statistics'
+    #   description: 'See data about reports of broken things on campus. (Coming Soon)'
+    #   link: '#'
+    #   disabled: "(Coming Soon)"
+    # - icon: "chart-simple"
+    #   title: 'Bus Statistics'
+    #   description: 'See data about the busses on campus. (Coming Soon)'
+    #   link: '#'
+    #   disabled: "(Coming Soon)"
+    # - icon: "user-group"
+    #   title: 'Find a Friend'
+    #   description: 'Feeling lonely? Meet someone new! (Coming Eventually)'
+    #   link: '#'
+    #   disabled: "(Coming Eventually)"
 services:
-  - icon: utensils
-    title: 'Online Order'
-    description: 'Order food to go from RIT Dining'
-    link: 'https://ondemand.rit.edu/'
-  - icon: "calendar-week"
-    title: 'Schedule Maker'
-    id: 'schedulemaker'
-    description: 'Pick your ideal schedule based on the classes you need to take'
-    link: 'https://schedule.csh.rit.edu'
-  - icon: "magnifying-glass"
-    title: 'TigerCenter'
-    id: 'tigercenter'
-    description: 'The best course search tool on campus'
-    link: 'https://tigercenter.rit.edu'
-  - icon: "check-to-slot"
-    title: 'PawPrints Petitions'
-    description: 'Make your voice heard to help make campus better'
-    link: 'https://pawprints.rit.edu/'
+  title: Campus Services
+  links:
+    - icon: utensils
+      title: 'Online Order'
+      description: 'Order food to go from RIT Dining'
+      link: 'https://ondemand.rit.edu/'
+    - icon: "calendar-week"
+      title: 'Schedule Maker'
+      id: 'schedulemaker'
+      description: 'Pick your ideal schedule based on the classes you need to take'
+      link: 'https://schedule.csh.rit.edu'
+    - icon: "magnifying-glass"
+      title: 'TigerCenter'
+      id: 'tigercenter'
+      description: 'The best course search tool on campus'
+      link: 'https://tigercenter.rit.edu'
+    - icon: "check-to-slot"
+      title: 'PawPrints Petitions'
+      description: 'Make your voice heard to help make campus better'
+      link: 'https://pawprints.rit.edu/'
 links:
-  - icon: "house"
-    title: 'Housing Cost Sheet'
-    description: 'Compare Housing Costs'
-    link: 'https://docs.google.com/spreadsheets/d/1rMiXzpoBFQjZwccW-A5hu5AWjXx9EZ7jZY0rMU8y4-s/edit'
-  - icon: "clock"
-    title: 'View Dining Hours'
-    description: 'View Dining hours'
-    link: 'https://tigercenter.rit.edu/tigerCenterApp/api/hours-and-locations'
-  - icon: "gavel"
-    title: 'Civic Action Guide'
-    description: 'Getting things done at RIT'
-    link: '#'
-    disabled: "(Coming soon)"
+  title: Other Links
+  links:
+    - icon: "house"
+      title: 'Housing Cost Sheet'
+      description: 'Compare Housing Costs'
+      link: 'https://docs.google.com/spreadsheets/d/1rMiXzpoBFQjZwccW-A5hu5AWjXx9EZ7jZY0rMU8y4-s/edit'
+    - icon: "clock"
+      title: 'View Dining Hours'
+      description: 'View Dining hours'
+      link: 'https://tigercenter.rit.edu/tigerCenterApp/api/hours-and-locations'
+    - icon: "gavel"
+      title: 'Civic Action Guide'
+      description: 'Getting things done at RIT'
+      link: '#'
+      disabled: "(Coming soon)"
