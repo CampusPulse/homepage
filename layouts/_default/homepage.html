@@ -1,20 +1,20 @@
 {{ define "page" }}
 <div class="app-container">
 	<h2 style="text-align:center;">Report Jank</h2>
-		{{ partial "menu.html" (dict "items" .Site.Data.brokenReports) }}
+		{{ partial "menu.html" (dict "items" .Site.Data.links.broken) }}
 
 
 
 	<h2 style="text-align:center;">Cool Utilities</h2>
-	{{ partial "menu.html" (dict "items" .Site.Data.utilities) }}
+	{{ partial "menu.html" (dict "items" .Site.Data.links.utilities) }}
 
 	<h2 style="text-align:center;">Campus Services</h2>
-	{{ partial "menu.html" (dict "items" .Site.Data.campusServices) }}
+	{{ partial "menu.html" (dict "items" .Site.Data.links.services) }}
 
 
 
 	<h2 style="text-align:center;">Other Links</h2>
-		{{ partial "menu.html" (dict "items" .Site.Data.links) }}
+		{{ partial "menu.html" (dict "items" .Site.Data.links.links) }}
 
 
 	{{ .Content }}
