@@ -12,10 +12,6 @@
   description: 'Get a notification when the shuttle routes change'
   link: 'https://discord.gg/QW6rDEs9Ck'
   nofollow: true
-- icon: utensils
-  title: 'Online Order'
-  description: 'Order food to go from RIT Dining'
-  link: 'https://ondemand.rit.edu/'
 # - icon: "wheelchair"
 #   title: 'RIT Slope Map'
 #   description: 'Find a route to class that has the flattest slopes to navigate'
@@ -25,20 +21,6 @@
 #   id: 'button'
 #   description: 'Let us know what accessible buttons to map first!'
 #   link: 'https://docs.google.com/forms/d/e/1FAIpQLSduHXhny349UYX06VdSjOqLwzaqz0XZKofUE2YZRmN37xTsAQ/viewform?usp=header'
-- icon: "calendar-week"
-  title: 'Schedule Maker'
-  id: 'schedulemaker'
-  description: 'Pick your ideal schedule based on the classes you need to take'
-  link: 'https://schedule.csh.rit.edu'
-- icon: "magnifying-glass"
-  title: 'TigerCenter'
-  id: 'tigercenter'
-  description: 'The best course search tool on campus'
-  link: 'https://tigercenter.rit.edu'
-- icon: "check-to-slot"
-  title: 'PawPrints Petitions'
-  description: 'Make your voice heard to help make campus better'
-  link: 'https://pawprints.rit.edu/'
 # - icon: "chart-simple"
 #   title: 'Accessibility Statistics'
 #   description: 'See data about reports of broken things on campus. (Coming Soon)'
