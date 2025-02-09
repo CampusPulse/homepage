@@ -1,5 +1,4 @@
-broken:
-  title: Report Jank
+- section_title: Report Jank
   links:
     - icon: "bus"
       title: 'Report Bus Issues'
@@ -19,8 +18,7 @@ broken:
       description: 'Report broken accessibility hardware. (Coming Soon)'
       link: '#'
       disabled: "(Coming Soon)"
-utilities:
-  title: Cool Utilities
+- section_title: Cool Utilities
   links:
     - icon: "calendar"
       title: 'Events'
@@ -60,8 +58,7 @@ utilities:
     #   description: 'Feeling lonely? Meet someone new! (Coming Eventually)'
     #   link: '#'
     #   disabled: "(Coming Eventually)"
-services:
-  title: Campus Services
+- section_title: Campus Services
   links:
     - icon: utensils
       title: 'Online Order'
@@ -81,8 +78,7 @@ services:
       title: 'PawPrints Petitions'
       description: 'Make your voice heard to help make campus better'
       link: 'https://pawprints.rit.edu/'
-links:
-  title: Other Links
+- section_title: Other Links
   links:
     - icon: "house"
       title: 'Housing Cost Sheet'
