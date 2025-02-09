@@ -11,27 +11,27 @@
       link: 'https://help.rit.edu'
     - icon: "text-slash"
       title: 'Website Feedback'
-      description: 'Found a typo or broken website? Report it here'
+      description: 'Report RIT website typos or errors'
       link: 'https://www.rit.edu/website-feedback'
     - icon: "flag"
       title: 'Accessibility Issue'
-      description: 'Report broken accessibility hardware. (Coming Soon)'
+      description: 'Report broken accessibility devices'
       link: '#'
       disabled: "(Coming Soon)"
 - section_title: Cool Utilities
   links:
     - icon: "calendar"
       title: 'Events'
-      description: 'What events are happening on campus'
+      description: 'Feed of campus public events'
       link: 'https://events.campuspulse.app/'
     - icon: "location-arrow"
       title: 'Bus Tracker'
-      description: 'When is the bus coming next? (Coming VERY Soon)'
+      description: 'When is the bus coming next?'
       link: '#'
       disabled: "(Coming VERY Soon)"
     - icon: bell
       title: 'Shuttle Change Alerts'
-      description: 'Get a notification when the shuttle routes change'
+      description: 'Get notified of route changes'
       link: 'https://discord.gg/QW6rDEs9Ck'
       nofollow: true
     # - icon: "wheelchair"
@@ -66,17 +66,17 @@
       link: 'https://ondemand.rit.edu/'
     - icon: "check-to-slot"
       title: 'PawPrints Petitions'
-      description: 'Make your voice heard to help make campus better'
+      description: 'Vote to help make campus better'
       link: 'https://pawprints.rit.edu/'
     - icon: "calendar-week"
       title: 'Schedule Maker'
       id: 'schedulemaker'
-      description: 'Pick your ideal schedule based on the classes you need to take'
+      description: 'Create your ideal class schedule'
       link: 'https://schedule.csh.rit.edu'
     - icon: "magnifying-glass"
       title: 'TigerCenter'
       id: 'tigercenter'
-      description: 'The best course search tool on campus'
+      description: 'The best class search on campus'
       link: 'https://tigercenter.rit.edu'
 - section_title: Other Links
   links:
