@@ -21,8 +21,8 @@
 - section_title: Cool Utilities
   links:
     - icon: "calendar"
-      title: 'Events'
-      description: 'Feed of campus public events'
+      title: 'Event Megafeed'
+      description: 'Feed of all public campus events'
       link: 'https://events.campuspulse.app/'
     - icon: "location-arrow"
       title: 'Bus Tracker'
@@ -82,12 +82,20 @@
   links:
     - icon: "house"
       title: 'Housing Cost Sheet'
-      description: 'Compare Housing Costs'
+      description: 'Student-made cost comparison'
       link: 'https://docs.google.com/spreadsheets/d/1rMiXzpoBFQjZwccW-A5hu5AWjXx9EZ7jZY0rMU8y4-s/edit'
     - icon: "clock"
       title: 'View Dining Hours'
-      description: 'View Dining hours'
+      description: 'Dining locations open now'
       link: 'https://tigercenter.rit.edu/tigerCenterApp/api/hours-and-locations'
+    - icon: "map"
+      title: 'Campus Map'
+      description: 'Find your way around campus'
+      link: https://maps.rit.edu/
+    # - icon: "calendar-days"
+    #   title: 'Academic Calendar'
+    #   description: 'Key dates throughout the semester'
+    #   link: https://www.rit.edu/calendar
     - icon: "gavel"
       title: 'Civic Action Guide'
       description: 'Getting things done at RIT'
