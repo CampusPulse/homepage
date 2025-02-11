@@ -81,7 +81,12 @@
 - section_title: Other Links
   links:
     - icon: "house"
-      title: 'Housing Cost Sheet'
+      title: 'Housing Costs 2025-2026'
+      id: "housing-current"
+      description: 'Student-made cost comparison'
+      link: 'https://docs.google.com/spreadsheets/d/1g9JzlHGDT1jKZLMfcAE6uhs8zUjAkYWD3U6cRSpk718/edit?gid=1031634032#gid=1031634032'
+    - icon: "house"
+      title: 'Housing Costs (Historical)'
       description: 'Student-made cost comparison'
       link: 'https://docs.google.com/spreadsheets/d/1rMiXzpoBFQjZwccW-A5hu5AWjXx9EZ7jZY0rMU8y4-s/edit'
     - icon: "clock"
