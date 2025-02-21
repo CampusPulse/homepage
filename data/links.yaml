@@ -92,7 +92,7 @@
     - icon: "clock"
       title: 'View Dining Hours'
       description: 'Dining locations open now'
-      link: 'https://tigercenter.rit.edu/tigerCenterApp/api/hours-and-locations'
+      link: 'https://www.rit.edu/dining/locations'
     - icon: "map"
       title: 'Campus Map'
       description: 'Find your way around campus'
