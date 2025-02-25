@@ -2,8 +2,8 @@
   links:
     - icon: "bus"
       title: 'Report Bus Issues'
-      description: 'Report Bus experiences to RIT'
-      link: '/bus'
+      description: 'For all your bus reporting needs'
+      link: 'https://ritbus.info'
       id: 'bus'
     - icon: "triangle-exclamation"
       title: 'RIT Service Request'
