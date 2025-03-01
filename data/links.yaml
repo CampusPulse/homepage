@@ -25,10 +25,9 @@
       description: 'Feed of all public campus events'
       link: 'https://events.campuspulse.app/'
     - icon: "location-arrow"
-      title: 'Bus Tracker'
+      title: 'Bus Schedules'
       description: 'When is the bus coming next?'
-      link: '#'
-      disabled: "(Coming VERY Soon)"
+      link: 'https://rit-bus.app'
     - icon: bell
       title: 'Shuttle Change Alerts'
       description: 'Get notified of route changes'
