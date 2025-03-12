@@ -13,11 +13,6 @@
       title: 'Website Feedback'
       description: 'Report RIT website typos or errors'
       link: 'https://www.rit.edu/website-feedback'
-    - icon: "flag"
-      title: 'Accessibility Issue'
-      description: 'Report broken accessibility devices'
-      link: '#'
-      disabled: "(Coming Soon)"
 - section_title: Cool Utilities
   links:
     - icon: "calendar"
@@ -33,6 +28,11 @@
       description: 'Get notified of route changes'
       link: 'https://discord.gg/QW6rDEs9Ck'
       nofollow: true
+    - icon: map-location-dot
+      title: Accessibility Map
+      description: Avoid broken accessibility devices
+      link: "#"
+      disabled: "(Coming Soon)"
     # - icon: "wheelchair"
     #   title: 'RIT Slope Map'
     #   description: 'Find a route to class that has the flattest slopes to navigate'
