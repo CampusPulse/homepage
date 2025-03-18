@@ -13,6 +13,10 @@
       title: 'Website Feedback'
       description: 'Report RIT website typos or errors'
       link: 'https://www.rit.edu/website-feedback'
+    - icon: "flag"
+      title: 'Accessibility Issue'
+      description: 'Report broken accessibility devices'
+      link: 'https://report.campuspulse.app'
 - section_title: Cool Utilities
   links:
     - icon: "calendar"
