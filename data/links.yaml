@@ -35,8 +35,7 @@
     - icon: map-location-dot
       title: Accessibility Map
       description: Avoid broken accessibility devices
-      link: "#"
-      disabled: "(Coming Soon)"
+      link: "https://access.campuspulse.app"
     # - icon: "wheelchair"
     #   title: 'RIT Slope Map'
     #   description: 'Find a route to class that has the flattest slopes to navigate'
