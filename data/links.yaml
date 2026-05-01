@@ -84,6 +84,11 @@
       id: 'tigercenter'
       description: 'The best class search on campus'
       link: 'https://tigercenter.rit.edu'
+    - icon: "desktop"
+      title: 'Web Developer Resources'
+      id: 'webdeveloperresources'
+      description: 'Design and build your website'
+      link: 'https://www.rit.edu/webresources/'
 - section_title: Other Links
   links:
     - icon: "house"
