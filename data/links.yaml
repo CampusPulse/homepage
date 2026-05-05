@@ -112,3 +112,16 @@
       description: 'Getting things done at RIT'
       link: '#'
       disabled: "(Coming soon)"
+#Uncomment and add the FOSSRIT wiki page if it ever gets created
+
+#- section_title: Clubs and Organizations
+#  links:
+#    - icon: "book"
+#      title: 'Free and Open Source Software RIT Wiki'
+#      description: 'FOSSRIT Wiki Page'
+#      disabled: "(Coming soon)"
+#      link: '#'  
+    - icon: "book"
+      title: 'RIT Linux Users Wiki'
+      description: 'RITLUG Wiki Page'
+      link: https://wiki.ritlug.com/
